@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="game-container">
+        <div class="dealer-player-wins">
+          <h1>Wins: Player - 0 Dealer - 0</h1>
+        </div>
+        <div class="reset-new-btn">
+          <button class="reset-btn grey-button">RESET All</button>
+          <button class="new-btn grey-button">NEW GAME</button>
+        </div>
+
+        <div class="board-container">
+          <div class="card-score-container dealer">
+            <div class="dealer-score"><h1>Dealer Score: 0</h1></div>
+            <div class="cards-align-dealer">
+              <ul class="dealer-hand">
+                <li class="card back-blue"></li>
+                <li class="card back-blue"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="buttons-container">
+            <button class="hit-button grey-button">HIT</button>
+            <div class="bet-game"><h1>Your bet: $0</h1></div>
+            <button class="stand-button grey-button">STAND</button>
+          </div>
+          <div class="card-score-container player">
+            <div class="cards-align-player">
+              <ul class="player-hand">
+                <li class="card back-red"></li>
+                <li class="card back-red"></li>
+              </ul>
+            </div>
+            <div class="player-score"><h1>Player Score: 0</h1></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="make-bet-container">
+        <div class="deal-container">
+          <div class="bet-container">
+            <div><h1>Your bet:</h1></div>
+            <div class="bet-num"><h1>$0</h1></div>
+          </div>
+          <button class="deal-btn">DEAL!</button>
+        </div>
+
+        <div class="bank-and-chips-container">
+          <div class="bankroll-container">
+            <div><h1>Your bankroll:</h1></div>
+            <div class="bankroll-num"><h1>$1000</h1></div>
+          </div>
+          <div class="chips-container">
+            <div class="chip">
+              <button class="pokerchip blue">$ 10 $</button>
+              <div class="chip-num ten"><h3>Chips: 5</h3></div>
+            </div>
+            <div class="chip">
+              <button class="pokerchip green">$ 20 $</button>
+              <div class="chip-num twenty"><h3>Chips: 5</h3></div>
+            </div>
+            <div class="chip">
+              <button class="pokerchip red">$ 50 $</button>
+              <div class="chip-num fifty"><h3>Chips: 5</h3></div>
+            </div>
+            <div class="chip">
+              <button class="pokerchip black">$ 100 $</button>
+              <div class="chip-num hundred"><h3>Chips: 6</h3></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
